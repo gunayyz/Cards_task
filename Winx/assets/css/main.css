@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Noticia+Text&family=Raleway:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-image: url(/assets/images/WallpaperDog-10972059.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.cards img {
+  max-width: 250px;
+  height: 250px;
+}
+
+.head {
+  text-align: center;
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: 'Noticia Text', serif;
+  font-size: 70px;
+  color: hotpink;
+}
+
+h2 {
+  color: rgba(255, 105, 180, 0.51);
+}
+
+.container {
+  margin-top: 20px;
+  margin-left: 40vh;
+  margin-right: 40vh;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.col-4 {
+  max-width: 250px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 2%;
+  border: 2px solid rgba(185, 67, 146, 0.491);
+}
+
+img:hover {
+  cursor: pointer;
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
